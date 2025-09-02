@@ -1,0 +1,124 @@
+div.emphasis{
+    background-color : rgba(50,50,60, 0.5);;
+}
+
+.bdr-10px{
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+html{
+    margin: 0px;
+}
+
+body{
+    /* max-width: 100vw; */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+    padding-top: 55px;
+    overflow-x: hidden;
+}
+
+button{
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+code{
+    font-family: "Nanum Gothic Coding", monospace;
+    background-color: rgb(39, 39, 39);
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+}
+
+img{
+    transition: opacity 300ms ease-in;
+}
+
+img.func-img{
+    max-width: 450px;
+    width: auto;
+    border-radius: 7px;
+    --color: rgba(122, 122, 122, 0.69);
+    box-shadow: 0px 0px 7px 0px var(--color);
+    -webkit-box-shadow: 0px 0px 7px 0px var(--color);
+    -moz-box-shadow: 0px 0px 7px 0px var(--color);
+    aspect-ratio: auto;
+    max-height: 500px;
+}
+
+div#claninfobackground{
+    background-image: url("../imgs/aitg_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div#claninfowrapper{
+    background-color: rgba(33, 37, 41, 0.95);
+}
+
+div.sidebar{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+@media only screen and (max-width: 768px) {
+    #bot-descrption {
+      background-image: url("../imgs/aitg_logo.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    #bot-descrption::after{
+        content: '';
+        position: absolute;
+        background: rgb(41, 48, 47);
+        z-index: -1;
+        inset: 0;
+        opacity: 0.9;
+    }
+
+    .hide-768{
+        display: none !important;
+    }
+
+    .show-768{
+        display: block !important;
+    }
+
+    .w-768-100{
+        width: 100% !important;
+    }
+
+  }
+
+::-webkit-scrollbar-track
+{
+	/* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+	border-radius: 8px;
+    width: 8px;
+	background: transparent;
+    position: absolute;
+}
+
+::-webkit-scrollbar
+{
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 8px;
+	/* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+	background-color: #424242;
+}
