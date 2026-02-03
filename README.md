@@ -1,4 +1,4 @@
 # AITG Bot Release
 AITG 봇의 소개 + AITG 클랜의 소개 사이트를 위한 깃헙 레포입니다.        
-      
-https://macqueen0987.github.io/AITG_Release/
+
+https://aitg-discord-bot.github.io/AITG-Web/
